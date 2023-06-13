@@ -1,0 +1,90 @@
+li:first-child {
+	font-size: 2rem;
+}
+
+li:last-child {
+	font-size: 5rem;
+}
+
+li:nth-child(even) {
+	color: lightcoral;
+}
+
+li:nth-child(2) {
+	background: beige;
+}
+
+::placeholder {
+	color: red;
+	opacity: 1;
+
+}
+
+input[type="text"] {
+	border: 5px solid red;
+}
+
+input[type="text"]::placeholder {
+	color: green;
+}
+
+::selection {
+	background-color: black;
+	color: cyan;
+}
+
+p {
+	position: relative;
+}
+
+p::selection {
+	background-color: orangered;
+}
+
+p::first-letter {
+	font-size: 2rem;
+}
+
+/*p::first-line {
+	background: blue;
+}*/
+
+p::before {
+	content: "hello   ";
+}
+
+p::after {
+	content: '';
+	background-image: url('../images/dog.jpg');
+	background-size: 100% 100%;
+	display: block;
+	background-color: red;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100px;
+	height: 100px;
+}
+
+a {
+	position: relative;
+	text-decoration: none;
+}
+
+a::after {
+	content: "";
+	display: block;
+	position: absolute;
+	height: 5px;
+	width: 0%;
+	background-color: green;
+	bottom: 0;
+	left: 0;
+	transition: 2s;
+}
+
+a:hover::after {
+	width: 100%;
+}

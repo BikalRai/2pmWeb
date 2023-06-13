@@ -1,0 +1,36 @@
+div {
+	height: 200px;
+	width: 200px;
+	background-color: red;
+	transition: all 1s;
+	display: inline-block;
+	margin: 20px;
+}
+
+.box1:hover {
+	transform: scale(0.5);
+}
+
+.box2:hover {
+	transform: scale(2);
+}
+
+.box3:hover {
+	transform: rotate(45deg);
+}
+
+.box4:hover {
+	transform: translate(-100px);
+}
+
+.box5:hover {
+	transform: translate(100px, 200px);
+}
+
+.box6:hover {
+	transform: skewY(45deg);
+}
+
+.box7:hover {
+	transform: skew(60deg, 50deg);
+}

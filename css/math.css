@@ -1,0 +1,23 @@
+div {
+	height: 100px;
+}
+
+.box {
+	background-color: blue;
+	color: white;
+	text-align: center;
+	font-size: 2rem;
+}
+
+.box:first-child {
+	width: calc(100% - 200px);
+}
+
+.box:nth-child(2) {
+	background-color: green;
+	width: min(500px, 50%);
+}
+
+.box:last-child {
+	width: max(500px, 50%);
+}

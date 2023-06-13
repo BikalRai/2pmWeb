@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Border and ouline</title>
+	<style type="text/css">
+
+		div {
+/*			border-style: solid;*/
+/*			border-color: red;*/
+/*			border-width: 10px;*/
+			height: 100px;
+			width: 100px;
+			border: 5px solid green;
+			border-top-color: red;
+/*			border-bottom: dotted 8px;*/
+			margin-bottom: 20px;
+			border-radius: 100px 40px 30px 20px;
+			border-radius: 2%;
+		}
+
+		.name {
+			border: none;
+			outline: none;
+			border-bottom: 1px solid red;
+			margin-bottom: 10px;
+			font-size: 2rem;
+		}
+
+		.password {
+			outline: 1px solid green;
+			outline-offset: 2px;
+		}
+	</style>
+</head>
+<body>
+
+	<div>one</div>
+	<input type="text" name="" class="name">
+	<input type="text" name="" class="password">
+</body>
+</html>

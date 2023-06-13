@@ -1,0 +1,59 @@
+div {
+	height: 200px;
+	width: 200px;
+	display: inline-block;
+	margin: 20px;
+}
+
+.box1 {
+	background-image: linear-gradient(black, green, orange, white, red, blue);
+}
+
+.box2 {
+	background: linear-gradient(to left, black, cyan);
+}
+
+.box3 {
+	background: linear-gradient(to bottom left, black, red);
+}
+
+.box4 {
+	background: linear-gradient(65deg, green, yellow);
+}
+
+.box5 {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(22, 100, 15, 0.5));
+}
+
+.box6 {
+	background: radial-gradient(black, red);
+}
+
+.box7 {
+	background: repeating-radial-gradient(black 20%, red 30%);
+/*	box-shadow: 10px 10px 10px 10px;*/
+/*	box-shadow: 10px 10px 10px 10px;*/
+/*	box-shadow: 10px 10px 10px red;*/
+	box-shadow: 10px 10px 10px red, 10px -10px 10px blue, -10px -10px 10px green, -10px 10px 10px black;
+}
+
+button {
+	color: white;
+	background-image: linear-gradient(to right, black, red);
+	padding: 10px;
+	background-size: 200% 200%;
+	transition:all 2s; 
+}
+
+button:hover {
+	
+	background-position: 100% 0%;
+}
+
+h1 {
+/*	text-shadow: 10px 10px 1px;*/
+width: 200px;
+background-color: red;
+padding: 20px;
+box-sizing: border-box;
+}

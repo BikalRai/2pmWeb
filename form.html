@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>form</title>
+  </head>
+  <body>
+    <form name="myform">
+      <fieldset>
+        <legend>My Form</legend>
+        <label for="firstname">First name: </label><br />
+      <input
+        type="text"
+        name="firstname"
+        placeholder="First name here"
+        required
+      /><br />
+      <label for="lastname">Last Name: </label><br />
+      <input type="text" name="lastname" /><br />
+      <label>Password: </label><br />
+      <input type="password" name="password" /><br />
+      <label>Confirm Password: </label><br />
+      <input type="password" name="cpassword" /><br />
+      <label>Email: </label><br />
+      <input type="email" name="email" /><br />
+      <label>Color</label><br />
+      <input type="color" name="colors" /><br />
+      <label>DOB:</label><br />
+      <input type="date" name="" /><br />
+      <label>Submission Date: </label><br />
+      <input type="datetime-local" name="" /><br />
+      <label>Search: </label><br />
+      <input type="search" name="" /><br />
+      <label>Hobbies: </label><br />
+      <input type="checkbox" name="" /> Football
+      <input type="checkbox" name="" checked /> Basketball
+      <input type="checkbox" name="" /> Baseball
+      <br />
+      <br />
+      <label>Gender: </label>
+      <!-- radio type needs all to have same name -->
+      <input type="radio" name="gender" /> Male
+      <input type="radio" name="gender" /> Female
+      <input type="radio" name="gender" /> Other <br /><br />
+      <textarea name="" rows="" cols=""></textarea><br>
+      <select>
+        <option>China</option>
+        <option>Nepal</option>
+        <option>India</option>
+      </select> <br>
+      <button type="button">Button</button>
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

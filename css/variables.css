@@ -1,0 +1,38 @@
+:root {
+  --container-size: calc(100% - 300px);
+  --primary-color: #d6e743;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial, sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.header {
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+}
+
+a {
+  color: var(--primary-color);
+}
+
+.content {
+  background-color: darkgreen;
+  color: var(--primary-color);
+}
+
+.footer {
+  background-color: darkslateblue;
+  width: 100% - 300px;
+  color: var(--primary-color);
+}

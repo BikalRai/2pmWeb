@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+}
+
+img {
+  width: 25%;
+  height: 25%;
+}
+
+@media (min-width: 900px) {
+  body {
+    background-color: red;
+  }
+  img {
+    transform: rotate(45deg);
+    border-radius: 2rem;
+    transition: 0.5s;
+  }
+}
+
+@media (min-width: 380px) and (max-width: 899px) {
+  body {
+    background-color: green;
+  }
+}

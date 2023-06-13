@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  animation-name: bgColor;
+  animation-duration: 2000ms;
+  animation-delay: 2s;
+}
+
+div {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  top: 100px;
+  background-color: red;
+  /* animation-name: move;
+  animation-duration: 5s; */
+  /* animation-timing-function: ease-in;
+  animation-timing-function: ease-out;
+  animation-timing-function: ease-in-out;
+  animation-timing-function: linear; */
+  /* animation-play-state: paused; */
+  /* animation-iteration-count: infinite; */
+  /* animation-direction: alternate-reverse; */
+  /* animation-fill-mode: forwards; */
+  animation: move 5s ease-in-out 1s 2 alternate forwards;
+  /* animation: name duration timing-function delay iteration-count direction
+    fill-mode; */
+}
+
+@keyframes bgColor {
+  from {
+    background-color: palegreen;
+  }
+
+  to {
+    background-color: lightseagreen;
+  }
+}
+
+@keyframes move {
+  0% {
+    left: 0;
+  }
+  25% {
+    border-radius: 0 50% 0 0;
+  }
+
+  50% {
+    background-color: green;
+    border-radius: 0 0 50% 0;
+    scale: 2;
+  }
+
+  75% {
+    border-radius: 0 0 0 50%;
+  }
+
+  100% {
+    background-color: blue;
+    left: calc(100% - 100px);
+    border-radius: 50%;
+    transform: rotateX(360deg);
+    scale: 0.75;
+  }
+}
