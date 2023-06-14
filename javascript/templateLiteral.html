@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Template Literal</title>
+</head>
+<body>
+	<script type="text/javascript">
+		let text = "Don't, let, it get you down!!";
+		console.log(text);
+
+		console.log(`Let's do it!!`);
+		console.log(`Bisan!! ${text}`);
+		console.log("Indiwor!! " + text);
+
+		console.log('Hello World'.length);
+		console.log('Hello World'[6]);
+
+		let text1 = "Meow!!";
+		let text2 = "Bow Wow!!";
+		text1 = text1.concat(text2);
+		console.log(text1);
+		console.log(text1.concat(" Hiss!!!"));
+
+		let result = text.slice(0, text.length);
+		console.log(result);
+		console.log(text.slice(0));
+		console.log(text.slice(4));
+		console.log(text.slice(6, 15));
+		console.log(text.slice(-1));
+
+		console.log("Hello".toLowerCase());
+
+		console.log(text2.replace("Bow", "WoW"));
+		let index = text.charAt(15);
+		console.log(index);
+		console.log("        WOW!!!!       ".trim());
+		console.log(text.split())
+		console.log(text.split(" "))
+		console.log(text.split(""))
+		console.log(text.split(","))
+
+	</script>
+</body>
+</html>
