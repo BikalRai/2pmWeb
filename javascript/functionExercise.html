@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Exercise</title>
+</head>
+<body>
+	<script type="text/javascript">
+		const calcAge = function(birthYear) {
+			let age;
+			const year = 2023;
+			age = year - birthYear;
+			return age;
+
+		}
+
+		console.log(`The age is ${calcAge(1990)}`);
+		console.log(`The age is ${calcAge(2004)}`);
+		console.log(`The age is ${calcAge(2020)}`);
+
+
+		// global variable
+		let a = 5;
+		let b = 15;
+
+		const something = () => {
+			let b = 10; // something function local variable
+			console.log(a);
+
+
+			const another = () => {
+				let c = 22; // another function local variable
+				console.log(b);
+				// console.log(a)
+			}
+
+			another();
+		}
+
+		something();
+
+		console.log(b);
+
+
+	</script>
+</body>
+</html>
