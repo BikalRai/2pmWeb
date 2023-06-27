@@ -1,0 +1,29 @@
+div {
+	height: 100px;
+	margin: 20xp 0;
+/*	background: red;*/
+}
+
+.box2 {
+	background: blue;
+}
+
+.box3 {
+	background: green;
+}
+
+.box4 {
+	background: yellow;
+}
+
+.box5 {
+	background: orange;
+}
+
+.box6 {
+	background: purple;
+}
+
+.nav-link {
+	color: #fff;
+}
