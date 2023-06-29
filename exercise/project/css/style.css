@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: arial;
+}
+
+header {
+	min-height: 100vh;
+	background: #1b2f45;
+	background-image: url('../images/img2.jpg');
+	background-repeat: no-repeat;
+	background-size: 50% 100%;
+	background-position: right;
+	padding-top: 15rem;
+}
+
+.hero {
+/*	background: red;*/
+}
+
+.banner-container {
+	margin: 0 auto;
+}
+
+.nav-link {
+	color: #fff;
+}
+
+
+main {
+	height: 2000px;
+}
